@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Book Donation Form</h1>
+
+<p>Help our school library by donating your books!</p>
+
+<form>
+
+<fieldset>
+<legend>Donor Information</legend>
+
+<label for="name">Name:</label>
+<input type="text" id="name" name="name">
+<br><br>
+
+<label for="email">Email:</label>
+<input type="email" id="email" name="email">
+<br><br>
+
+<label for="phone">Phone:</label>
+<input type="tel" id="phone" name="phone">
+
+</fieldset>
+
+<br>
+
+<fieldset>
+<legend>Book Information</legend>
+
+<label for="book">Book Title:</label>
+<input type="text" id="book" name="book">
+<br><br>
+
+<label for="author">Author:</label>
+<input type="text" id="author" name="author">
+<br><br>
+
+<label for="category">Category:</label>
+<select id="category">
+    <option>Science</option>
+    <option>Math</option>
+    <option>History</option>
+    <option>Fiction</option>
+</select>
+
+<br><br>
+
+<label>Book Condition:</label><br>
+<input type="radio" name="condition"> New
+<input type="radio" name="condition"> Good
+<input type="radio" name="condition"> Used
+
+<br><br>
+
+<label for="quantity">Number of Books:</label>
+<select id="quantity">
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+</select>
+
+</fieldset>
+
+<br>
+
+<label for="message">Additional Message:</label><br>
+<textarea id="message" rows="4" cols="40"></textarea>
+
+<br><br>
+
+<input type="checkbox" id="agree">
+<label for="agree">I agree to donate these books.</label>
+
+<br><br>
+
+<input type="submit" value="Donate Books">
+<input type="reset" value="Clear">
+
+</form>
+
+</body>
+</html>
