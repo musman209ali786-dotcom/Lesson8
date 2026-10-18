@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu Card</title>
+    
+    <!-- Internal CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: lightgray;
+        }
+
+        .menu-container {
+            background-color: white;
+            border: 2px solid black;
+        }
+
+        .banner {
+            background-color: gold;
+            color: black;
+            text-align: center;
+            font-weight: bold;
+            font-size: 16px;
+            text-transform: uppercase;
+        }
+
+        .restaurant-title {
+            text-align: center;
+            color: darkred;
+            font-size: 24px;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px gray;
+        }
+
+        .tagline {
+            text-align: center;
+            color: gray;
+            font-size: 14px;
+            font-style: italic;
+        }
+
+        .menu-section-title {
+            color: crimson;
+            font-size: 18px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .dish-name {
+            font-size: 16px;
+            font-weight: bold;
+            color: black;
+        }
+
+        .dish-price {
+            color: crimson;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .dish-desc {
+            color: dimgray;
+            font-size: 12px;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="menu-container">
+        <!-- Banner -->
+        <div class="banner">
+            Special Offer: 20% Off Today!
+        </div>
+
+        <!-- Title & Tagline -->
+        <h1 class="restaurant-title">Tasty Bites</h1>
+        <p class="tagline">Delicious food made fresh daily</p>
+
+        <!-- Section 1: Starters -->
+        <h2 class="menu-section-title">Starters</h2>
+        
+        <div class="dish-item">
+            <div class="dish-name">Garlic Bread</div>
+            <div class="dish-price">$5.00</div>
+            <p class="dish-desc">Toasted bread topped with garlic butter and fresh herbs.</p>
+        </div>
+
+        <div class="dish-item">
+            <div class="dish-name">Loaded Cheese Fries</div>
+            <div class="dish-price">$7.50</div>
+            <p class="dish-desc">Crispy fries covered in melted cheddar cheese and bacon bits.</p>
+        </div>
+
+        <!-- Section 2: Main Course -->
+        <h2 class="menu-section-title">Main Course</h2>
+
+        <div class="dish-item">
+            <div class="dish-name">Cheese Burger</div>
+            <div class="dish-price">$10.00</div>
+            <p class="dish-desc">Juicy beef patty served with melted cheddar cheese and fries.</p>
+        </div>
+
+        <div class="dish-item">
+            <div class="dish-name">Alfredo Pasta</div>
+            <div class="dish-price">$13.00</div>
+            <p class="dish-desc">Fettuccine pasta in a rich and creamy garlic parmesan sauce.</p>
+        </div>
+    </div>
+
+</body>
+</html>
